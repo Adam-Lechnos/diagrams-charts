@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-02-17T20:06:33.338Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="nPyobrOo1_GkGY2jskIl" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-17T20:10:15.237Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="wUd0_H_56eSaLzNnI1aV" version="23.1.5" type="github">
   <diagram name="Page-1" id="hpfC6C4rZ-5vUPcEvH5o">
-    <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1383" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QoQmynqA4SF9GIS3_MTl-1" value="bucket1 = new Bucket(this, &quot;Bucket1&quot;, {buckerProps..})" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" parent="1" vertex="1">
+        <mxCell id="QoQmynqA4SF9GIS3_MTl-1" value="bucket1 = new Bucket(&lt;font color=&quot;#00cc66&quot;&gt;this&lt;/font&gt;, &quot;Bucket1&quot;, {buckerProps..})" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="600" y="466" width="360" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NvNeomUsXUP52iQ3HjqU-1" value="import as cdk from &#39;aws-cdk-lib&#39;" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#ffcccc;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
@@ -13,7 +13,7 @@
         <mxCell id="NvNeomUsXUP52iQ3HjqU-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NvNeomUsXUP52iQ3HjqU-2" target="NvNeomUsXUP52iQ3HjqU-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NvNeomUsXUP52iQ3HjqU-2" value="app = new cdk.App()" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NvNeomUsXUP52iQ3HjqU-2" value="&lt;font color=&quot;#00cc66&quot;&gt;app&lt;/font&gt; = new cdk.App()" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="431" y="159" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NvNeomUsXUP52iQ3HjqU-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NvNeomUsXUP52iQ3HjqU-3" target="NvNeomUsXUP52iQ3HjqU-22">
@@ -23,7 +23,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NvNeomUsXUP52iQ3HjqU-3" value="bucketStack = new BucketStack(app, &#39;BucketStack&#39;)" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NvNeomUsXUP52iQ3HjqU-3" value="bucketStack = new BucketStack(&lt;font color=&quot;#00cc66&quot;&gt;app&lt;/font&gt;, &#39;BucketStack&#39;)" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="560" y="240" width="400" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NvNeomUsXUP52iQ3HjqU-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NvNeomUsXUP52iQ3HjqU-4" target="NvNeomUsXUP52iQ3HjqU-21">
@@ -33,7 +33,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NvNeomUsXUP52iQ3HjqU-4" value="handlerStack = new HandlerStack(app, &#39;HandlerStack&#39;, extendedProps..)" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NvNeomUsXUP52iQ3HjqU-4" value="handlerStack = new HandlerStack(&lt;font color=&quot;#00cc66&quot;&gt;app&lt;/font&gt;, &#39;HandlerStack&#39;, extendedProps..)" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="120" y="240" width="402" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NvNeomUsXUP52iQ3HjqU-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NvNeomUsXUP52iQ3HjqU-5" target="NvNeomUsXUP52iQ3HjqU-23">
@@ -43,7 +43,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NvNeomUsXUP52iQ3HjqU-5" value="new LambdaFunction(this, &#39;LambdaFunction&#39;, FunctionProps..)" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NvNeomUsXUP52iQ3HjqU-5" value="new LambdaFunction(&lt;font color=&quot;#00cc66&quot;&gt;this&lt;/font&gt;, &#39;LambdaFunction&#39;, FunctionProps..)" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="151" y="466" width="340" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NvNeomUsXUP52iQ3HjqU-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NvNeomUsXUP52iQ3HjqU-15" target="NvNeomUsXUP52iQ3HjqU-17">
@@ -81,7 +81,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NvNeomUsXUP52iQ3HjqU-23" value="this = Function" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NvNeomUsXUP52iQ3HjqU-23" value="&lt;font color=&quot;#00cc66&quot;&gt;this&lt;/font&gt; = Function" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="68" y="430" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NvNeomUsXUP52iQ3HjqU-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NvNeomUsXUP52iQ3HjqU-25" target="NvNeomUsXUP52iQ3HjqU-27">
@@ -131,7 +131,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NvNeomUsXUP52iQ3HjqU-51" value="this = Bucket" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NvNeomUsXUP52iQ3HjqU-51" value="&lt;font color=&quot;#00cc66&quot;&gt;this&lt;/font&gt; = Bucket" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="927" y="430" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NvNeomUsXUP52iQ3HjqU-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NvNeomUsXUP52iQ3HjqU-53" target="NvNeomUsXUP52iQ3HjqU-55">
