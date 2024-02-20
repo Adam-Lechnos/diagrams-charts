@@ -1,2 +1,2 @@
-# diagrams-devops
-Devops Diagrams
+# Diagrams and Charts
+Diagrams and Charts
