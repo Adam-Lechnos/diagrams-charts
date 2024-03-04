@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T01:46:51.748Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Y7JwqSHJhRzTKqXYVgYS" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T01:51:16.277Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="wPzDuIkCKmYfOxkaX8ro" version="23.1.7" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="691" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="519" dy="275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,21 +27,21 @@
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="Request Grant" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=10;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="143" y="501" as="sourcePoint" />
+            <mxPoint x="143" y="502" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="228" y="501" />
+              <mxPoint x="228" y="502" />
             </Array>
-            <mxPoint x="303" y="501" as="targetPoint" />
+            <mxPoint x="303" y="502" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-10" value="Authorization Code" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=open;startFill=0;endFill=0;fontSize=10;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="303" y="523" as="targetPoint" />
+            <mxPoint x="303" y="524" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="228" y="523" />
+              <mxPoint x="228" y="524" />
             </Array>
-            <mxPoint x="143" y="523" as="sourcePoint" />
+            <mxPoint x="143" y="524" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-6" value="AWS Credentials&lt;br style=&quot;font-size: 10px;&quot;&gt;(Cognito Identity Pool)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
@@ -219,6 +219,16 @@
         <mxCell id="r72Okk3l7TpYCggT--TZ-49" value="Authorization Code Grant" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="167" y="582" width="110" height="8" as="geometry" />
         </mxCell>
+        <mxCell id="r72Okk3l7TpYCggT--TZ-52" value="Cognito Role Claims" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="689" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="565" y="689" />
+            </Array>
+            <mxPoint x="640" y="689" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-50" value="Request ID Token (OIDC)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=10;" edge="1" parent="1">
           <mxGeometry x="-0.4801" y="1" relative="1" as="geometry">
             <mxPoint x="143" y="689" as="sourcePoint" />
@@ -229,9 +239,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r72Okk3l7TpYCggT--TZ-51" value="ID Token" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=open;startFill=0;endFill=0;fontSize=10;" edge="1" parent="1" target="r72Okk3l7TpYCggT--TZ-5">
+        <mxCell id="r72Okk3l7TpYCggT--TZ-51" value="ID Token / Cognito Role Claims" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=open;startFill=0;endFill=0;fontSize=10;" edge="1" parent="1">
           <mxGeometry x="-0.4679" relative="1" as="geometry">
-            <mxPoint x="303" y="713" as="targetPoint" />
+            <mxPoint x="470" y="713" as="targetPoint" />
             <Array as="points">
               <mxPoint x="228" y="713" />
             </Array>
