@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T01:17:28.962Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="3T2kMliIVfPue8YB0mH7" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T01:21:09.257Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="0cKu0meL5a9ui33FG79-" version="23.1.7" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1037" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -60,7 +60,7 @@
             <mxPoint x="327.36958321275506" y="394.3580078690211" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r72Okk3l7TpYCggT--TZ-12" value="Define&lt;br&gt;Custom Scopes" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+        <mxCell id="r72Okk3l7TpYCggT--TZ-12" value="Define&lt;br&gt;App Clients" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
           <mxGeometry x="320" y="350" width="88" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-13" value="Define&lt;br&gt;Federated IdP" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
@@ -178,6 +178,15 @@
             </Array>
             <mxPoint x="143" y="573" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="r72Okk3l7TpYCggT--TZ-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;entryX=0.37;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashPattern=1 1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="382" y="352" as="targetPoint" />
+            <mxPoint x="424.6089631038478" y="327.6520210835156" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r72Okk3l7TpYCggT--TZ-41" value="Define&lt;br&gt;Custom Scopes" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="408" y="292" width="88" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
