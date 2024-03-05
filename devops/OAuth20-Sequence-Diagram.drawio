@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T18:00:00.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="OEMmP6aAJQb9ooWmp5PM" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T18:11:25.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="oDKO6zphu_CCtMOHkrgu" version="23.1.7" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1383" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,7 +73,7 @@
           <mxGeometry x="45" y="80" width="10" height="310" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-4" value="Authentication / IdP&lt;br style=&quot;font-size: 10px;&quot;&gt;(Cognito User Pool)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="438" y="230" width="100" height="410" as="geometry" />
+          <mxGeometry x="440" y="230" width="100" height="410" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="r72Okk3l7TpYCggT--TZ-4">
           <mxGeometry x="45" y="80" width="10" height="310" as="geometry" />
@@ -99,7 +99,7 @@
         <mxCell id="r72Okk3l7TpYCggT--TZ-36" value="Cognito" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cognito;fillColor=#AD688B;gradientColor=none;fontSize=7;" vertex="1" parent="1">
           <mxGeometry x="726" y="226.5" width="20" height="19.5" as="geometry" />
         </mxCell>
-        <mxCell id="r72Okk3l7TpYCggT--TZ-38" value="Request Access Token" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=10;" edge="1" parent="1" target="aM9ryv3xv72pqoxQDRHE-6">
+        <mxCell id="r72Okk3l7TpYCggT--TZ-38" value="Request Access Token with Scopes" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=9;" edge="1" parent="1" target="aM9ryv3xv72pqoxQDRHE-6">
           <mxGeometry x="0.05" y="1" relative="1" as="geometry">
             <mxPoint x="156" y="371" as="sourcePoint" />
             <Array as="points">
@@ -109,7 +109,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r72Okk3l7TpYCggT--TZ-39" value="Return Access Token" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=open;startFill=0;endFill=0;fontSize=10;" edge="1" parent="1" target="aM9ryv3xv72pqoxQDRHE-6">
+        <mxCell id="r72Okk3l7TpYCggT--TZ-39" value="Return Access Token with Scopes" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=open;startFill=0;endFill=0;fontSize=9;" edge="1" parent="1" target="aM9ryv3xv72pqoxQDRHE-6">
           <mxGeometry x="0.05" relative="1" as="geometry">
             <mxPoint x="300" y="390" as="targetPoint" />
             <Array as="points">
@@ -153,11 +153,9 @@
           <mxGeometry x="180" y="402" width="110" height="8" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-52" value="Retrieve Cognito Role Claims" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=10;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="493" y="551" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="578" y="551" />
-            </Array>
+          <mxGeometry y="1" relative="1" as="geometry">
+            <mxPoint x="495" y="551" as="sourcePoint" />
+            <Array as="points" />
             <mxPoint x="653" y="551" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
@@ -336,6 +334,26 @@
               <mxPoint x="747" y="575" />
             </Array>
             <mxPoint x="662" y="575" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r72Okk3l7TpYCggT--TZ-99" value="Request Access Token" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=10;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="r72Okk3l7TpYCggT--TZ-5">
+          <mxGeometry x="0.05" y="1" relative="1" as="geometry">
+            <mxPoint x="340" y="370" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="460" y="370" />
+            </Array>
+            <mxPoint x="460" y="371" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r72Okk3l7TpYCggT--TZ-100" value="Return Access Token" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=open;startFill=0;endFill=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry x="0.05" relative="1" as="geometry">
+            <mxPoint x="485" y="393" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="393" />
+            </Array>
+            <mxPoint x="325" y="393" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
