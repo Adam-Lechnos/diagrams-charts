@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T17:46:56.860Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="7oOnSOp3t0fWLYgxBvnq" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T17:50:07.247Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="AE2hBoH3QKKFBMSTWd_d" version="23.1.7" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1383" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="691" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,19 +99,19 @@
         <mxCell id="r72Okk3l7TpYCggT--TZ-36" value="Cognito" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cognito;fillColor=#AD688B;gradientColor=none;fontSize=7;" vertex="1" parent="1">
           <mxGeometry x="726" y="226.5" width="20" height="19.5" as="geometry" />
         </mxCell>
-        <mxCell id="r72Okk3l7TpYCggT--TZ-38" value="Request Access Token" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=10;" edge="1" parent="1" target="r72Okk3l7TpYCggT--TZ-5">
-          <mxGeometry x="-0.4862" y="1" relative="1" as="geometry">
+        <mxCell id="r72Okk3l7TpYCggT--TZ-38" value="Request Access Token" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=10;" edge="1" parent="1" target="aM9ryv3xv72pqoxQDRHE-6">
+          <mxGeometry x="0.05" y="1" relative="1" as="geometry">
             <mxPoint x="156" y="371" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="241" y="371" />
             </Array>
-            <mxPoint x="316" y="371" as="targetPoint" />
+            <mxPoint x="310" y="371" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r72Okk3l7TpYCggT--TZ-39" value="Access Token" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=open;startFill=0;endFill=0;fontSize=10;" edge="1" parent="1" target="r72Okk3l7TpYCggT--TZ-5">
-          <mxGeometry x="-0.4862" relative="1" as="geometry">
-            <mxPoint x="316" y="393" as="targetPoint" />
+        <mxCell id="r72Okk3l7TpYCggT--TZ-39" value="Return Access Token" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=open;startFill=0;endFill=0;fontSize=10;" edge="1" parent="1" target="aM9ryv3xv72pqoxQDRHE-6">
+          <mxGeometry x="0.05" relative="1" as="geometry">
+            <mxPoint x="300" y="390" as="targetPoint" />
             <Array as="points">
               <mxPoint x="241" y="393" />
             </Array>
