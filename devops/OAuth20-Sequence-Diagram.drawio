@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T17:06:16.331Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="7gEZS_YKyMsW5kz5DiQd" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T17:09:21.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="8U59rn__smtzgAR9D_It" version="23.1.7" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="691" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -187,12 +187,12 @@
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;entryX=0.37;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashPattern=1 1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="419" y="173" as="targetPoint" />
-            <mxPoint x="461.6089631038478" y="148.6520210835156" as="sourcePoint" />
+            <mxPoint x="418" y="173" as="targetPoint" />
+            <mxPoint x="460.6089631038478" y="148.6520210835156" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-41" value="Define&lt;br&gt;Custom Scopes" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
-          <mxGeometry x="445" y="113" width="88" height="40" as="geometry" />
+          <mxGeometry x="444" y="113" width="88" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-44" value="Request Access Token" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=10;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -351,12 +351,21 @@
           <mxGeometry x="13" y="26" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-86" value="Define&lt;br&gt;Authorizer &amp;amp; Scopes" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
-          <mxGeometry x="1006" y="170" width="88" height="40" as="geometry" />
+          <mxGeometry x="990" y="170" width="104" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="r72Okk3l7TpYCggT--TZ-87" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;entryX=0.37;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashPattern=1 1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="r72Okk3l7TpYCggT--TZ-86">
+        <mxCell id="r72Okk3l7TpYCggT--TZ-87" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;dashPattern=1 1;entryX=0.11;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.059;exitY=0.828;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r72Okk3l7TpYCggT--TZ-86" target="r72Okk3l7TpYCggT--TZ-26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="990" y="230" as="targetPoint" />
-            <mxPoint x="1023" y="214" as="sourcePoint" />
+            <mxPoint x="970" y="220" as="targetPoint" />
+            <mxPoint x="960" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r72Okk3l7TpYCggT--TZ-89" value="Use&lt;br&gt;Role Mapping" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="826" y="170" width="88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r72Okk3l7TpYCggT--TZ-90" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;entryX=0.37;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashPattern=1 1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="r72Okk3l7TpYCggT--TZ-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="230" as="targetPoint" />
+            <mxPoint x="843" y="214" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
