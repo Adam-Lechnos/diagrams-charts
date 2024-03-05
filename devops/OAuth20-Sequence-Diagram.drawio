@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T17:50:07.247Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="AE2hBoH3QKKFBMSTWd_d" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T17:59:01.123Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="CHPqaVd2fhjqN5bdOGjj" version="23.1.7" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="691" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -58,13 +58,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-12" value="Define&lt;br&gt;App Clients" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
-          <mxGeometry x="333" y="170" width="88" height="40" as="geometry" />
+          <mxGeometry x="333" y="170" width="97" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="r72Okk3l7TpYCggT--TZ-13" value="Define&lt;br&gt;Federated IdP" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
-          <mxGeometry x="503" y="170" width="88" height="40" as="geometry" />
+        <mxCell id="r72Okk3l7TpYCggT--TZ-13" value="Define&lt;br&gt;Federated IdP / User Groups" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="503" y="170" width="97" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-14" value="Define&lt;br&gt;Role Mappings" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
-          <mxGeometry x="663" y="170" width="88" height="40" as="geometry" />
+          <mxGeometry x="663" y="170" width="97" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-15" value="AWS IAM&lt;br&gt;(App Assumes Role)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="776" y="230" width="100" height="410" as="geometry" />
@@ -126,7 +126,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-41" value="Define&lt;br&gt;Custom Scopes" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
-          <mxGeometry x="431" y="113" width="88" height="40" as="geometry" />
+          <mxGeometry x="431" y="113" width="99" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-44" value="Request Access Token" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=10;" edge="1" parent="1" target="r72Okk3l7TpYCggT--TZ-5">
           <mxGeometry x="-0.4862" relative="1" as="geometry">
@@ -224,10 +224,10 @@
           <mxGeometry x="120" y="565" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-67" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="120" y="495" width="20" height="20" as="geometry" />
+          <mxGeometry x="120" y="475" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-68" value="3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="495" width="20" height="20" as="geometry" />
+          <mxGeometry x="120" y="475" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-70" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="120" y="405" width="20" height="20" as="geometry" />
@@ -245,7 +245,7 @@
           <mxGeometry x="10" y="543.5" width="91" height="15" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-76" value="Access Token (JWT)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;verticalAlign=middle;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
-          <mxGeometry x="10" y="496.5" width="91" height="15" as="geometry" />
+          <mxGeometry x="10" y="476.5" width="91" height="15" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-77" value="ID Token (JWT)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;verticalAlign=middle;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
           <mxGeometry x="10" y="568.5" width="91" height="15" as="geometry" />
@@ -255,8 +255,8 @@
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-79" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=openThin;endFill=0;dashPattern=1 1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;" edge="1" parent="1" target="r72Okk3l7TpYCggT--TZ-76">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="102" y="506" as="targetPoint" />
-            <mxPoint x="120" y="505" as="sourcePoint" />
+            <mxPoint x="102" y="486" as="targetPoint" />
+            <mxPoint x="120" y="485" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-80" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=openThin;endFill=0;dashPattern=1 1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;" edge="1" parent="1">
@@ -286,14 +286,14 @@
         <mxCell id="r72Okk3l7TpYCggT--TZ-86" value="Define&lt;br&gt;Authorizer &amp;amp; Scopes" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
           <mxGeometry x="977" y="170" width="104" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="r72Okk3l7TpYCggT--TZ-87" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;dashPattern=1 1;entryX=0.11;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.072;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r72Okk3l7TpYCggT--TZ-86" target="r72Okk3l7TpYCggT--TZ-26">
+        <mxCell id="r72Okk3l7TpYCggT--TZ-87" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;dashPattern=1 1;entryX=0.11;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.203;exitY=0.922;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r72Okk3l7TpYCggT--TZ-86" target="r72Okk3l7TpYCggT--TZ-26">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="957" y="220" as="targetPoint" />
             <mxPoint x="967" y="210" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-89" value="Use&lt;br&gt;Role Mapping" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
-          <mxGeometry x="813" y="170" width="88" height="40" as="geometry" />
+          <mxGeometry x="813" y="170" width="97" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-90" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;entryX=0.37;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashPattern=1 1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="r72Okk3l7TpYCggT--TZ-89">
           <mxGeometry relative="1" as="geometry">
@@ -301,14 +301,14 @@
             <mxPoint x="830" y="214" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r72Okk3l7TpYCggT--TZ-91" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;dashPattern=1 1;entryX=0.646;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="r72Okk3l7TpYCggT--TZ-13">
+        <mxCell id="r72Okk3l7TpYCggT--TZ-91" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;dashPattern=1 1;entryX=0.646;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.186;exitY=0.947;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r72Okk3l7TpYCggT--TZ-92" target="r72Okk3l7TpYCggT--TZ-13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="620" y="173" as="targetPoint" />
             <mxPoint x="590" y="150" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-92" value="OAuth, OIDC, &lt;br&gt;SAML and Social" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
-          <mxGeometry x="575" y="113" width="88" height="40" as="geometry" />
+          <mxGeometry x="578" y="113" width="95" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-93" value="OAuth flow" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;verticalAlign=middle;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
           <mxGeometry x="10" y="406.5" width="91" height="15" as="geometry" />
@@ -319,7 +319,7 @@
             <mxPoint x="120" y="415" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r72Okk3l7TpYCggT--TZ-97" value="Retreive Roles" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=10;" edge="1" parent="1">
+        <mxCell id="r72Okk3l7TpYCggT--TZ-97" value="Retreive Custom Roles" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=10;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="662" y="551" as="sourcePoint" />
             <Array as="points">
@@ -329,7 +329,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r72Okk3l7TpYCggT--TZ-98" value="Return Roles" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=open;startFill=0;endFill=0;fontSize=10;" edge="1" parent="1">
+        <mxCell id="r72Okk3l7TpYCggT--TZ-98" value="Return Custom Roles" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=open;startFill=0;endFill=0;fontSize=10;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="822" y="575" as="targetPoint" />
             <Array as="points">
