@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T19:29:10.244Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="3TkKpV1P-fIncBcfJnDN" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T19:35:12.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="0N_AE7RWuDpycr32N8Lf" version="23.1.7" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1383" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -414,7 +414,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-130" value="AWS Cognito Components &amp; Usage" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="120" y="685" width="475" height="125" as="geometry" />
+          <mxGeometry x="30" y="600" width="475" height="159" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-131" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="r72Okk3l7TpYCggT--TZ-130">
           <mxGeometry y="30" width="475" height="34" as="geometry" />
@@ -434,8 +434,26 @@
             <mxRectangle width="158" height="34" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="r72Okk3l7TpYCggT--TZ-149" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="r72Okk3l7TpYCggT--TZ-130">
+          <mxGeometry y="64" width="475" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="r72Okk3l7TpYCggT--TZ-150" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;fontStyle=1" vertex="1" parent="r72Okk3l7TpYCggT--TZ-149">
+          <mxGeometry width="158" height="34" as="geometry">
+            <mxRectangle width="158" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r72Okk3l7TpYCggT--TZ-151" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;fontStyle=1" vertex="1" parent="r72Okk3l7TpYCggT--TZ-149">
+          <mxGeometry x="158" width="159" height="34" as="geometry">
+            <mxRectangle width="159" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r72Okk3l7TpYCggT--TZ-152" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;fontStyle=1" vertex="1" parent="r72Okk3l7TpYCggT--TZ-149">
+          <mxGeometry x="317" width="158" height="34" as="geometry">
+            <mxRectangle width="158" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-135" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="r72Okk3l7TpYCggT--TZ-130">
-          <mxGeometry y="64" width="475" height="31" as="geometry" />
+          <mxGeometry y="98" width="475" height="31" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-136" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="r72Okk3l7TpYCggT--TZ-135">
           <mxGeometry width="158" height="31" as="geometry">
@@ -453,7 +471,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-139" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="r72Okk3l7TpYCggT--TZ-130">
-          <mxGeometry y="95" width="475" height="30" as="geometry" />
+          <mxGeometry y="129" width="475" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-140" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="r72Okk3l7TpYCggT--TZ-139">
           <mxGeometry width="158" height="30" as="geometry">
@@ -471,33 +489,48 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-143" value="User Pool" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="120" y="747" width="158" height="34" as="geometry">
+          <mxGeometry x="30" y="662" width="158" height="34" as="geometry">
             <mxRectangle width="158" height="34" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-144" value="App Client" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="278" y="747" width="159" height="34" as="geometry">
+          <mxGeometry x="188" y="662" width="159" height="34" as="geometry">
             <mxRectangle width="159" height="34" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r72Okk3l7TpYCggT--TZ-145" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Attach Custom Scopes&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="437" y="747" width="158" height="34" as="geometry">
+        <mxCell id="r72Okk3l7TpYCggT--TZ-145" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Hosted UI: URL, IdP, OIDC Scopes, and Auth flows&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="347" y="663" width="158" height="34" as="geometry">
             <mxRectangle width="158" height="34" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-146" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;User Pool&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="120" y="781" width="158" height="31" as="geometry">
+          <mxGeometry x="30" y="696" width="158" height="31" as="geometry">
             <mxRectangle width="158" height="31" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r72Okk3l7TpYCggT--TZ-147" value="Resource Server" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="278" y="781" width="159" height="31" as="geometry">
+        <mxCell id="r72Okk3l7TpYCggT--TZ-153" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;User Pool&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="30" y="728" width="158" height="31" as="geometry">
+            <mxRectangle width="158" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r72Okk3l7TpYCggT--TZ-154" value="Resource Server" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="188" y="728" width="159" height="31" as="geometry">
             <mxRectangle width="159" height="31" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r72Okk3l7TpYCggT--TZ-148" value="Defined Custom Scopes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="437" y="781" width="158" height="31" as="geometry">
+        <mxCell id="r72Okk3l7TpYCggT--TZ-155" value="Define Custom Scopes for App Client" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="347" y="728" width="158" height="31" as="geometry">
             <mxRectangle width="158" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r72Okk3l7TpYCggT--TZ-156" value="App Client" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="188" y="696" width="159" height="34" as="geometry">
+            <mxRectangle width="159" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r72Okk3l7TpYCggT--TZ-157" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Attach Resource Server Custom Scopes to Hosted UI&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="347" y="696" width="158" height="34" as="geometry">
+            <mxRectangle width="158" height="34" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
