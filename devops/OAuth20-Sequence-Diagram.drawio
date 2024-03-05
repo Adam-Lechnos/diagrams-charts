@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T17:00:15.037Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Crk5HsSr5Je0wdQhNWCm" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T17:01:11.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Fm6JQRu4vSQnthrk2Atj" version="23.1.7" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -344,7 +344,7 @@
             <mxPoint x="133" y="550" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r72Okk3l7TpYCggT--TZ-83" value="OAuth and OIDCS with AWS Cognito - Workflow" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="r72Okk3l7TpYCggT--TZ-83" value="OAuth and OIDC with AWS Cognito - Workflow" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
           <mxGeometry y="1" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-84" value="Author: Adam M. Lechnos" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=0" vertex="1" parent="1">
