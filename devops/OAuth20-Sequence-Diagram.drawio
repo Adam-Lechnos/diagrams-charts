@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T17:17:25.321Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="DcF0JIMJGgkuiJZyzJHP" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T17:19:11.280Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="CVykp7U6SlrdZvXAZJvf" version="23.1.7" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="691" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -376,6 +376,15 @@
         </mxCell>
         <mxCell id="r72Okk3l7TpYCggT--TZ-92" value="OAuth, OIDC, &lt;br&gt;SAML and Social" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
           <mxGeometry x="575" y="113" width="88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r72Okk3l7TpYCggT--TZ-93" value="OAuth flow" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;verticalAlign=middle;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="18" y="406.5" width="83" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="r72Okk3l7TpYCggT--TZ-94" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=openThin;endFill=0;dashPattern=1 1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=openThin;startFill=0;" edge="1" parent="1" target="r72Okk3l7TpYCggT--TZ-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="102" y="416" as="targetPoint" />
+            <mxPoint x="120" y="415" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
