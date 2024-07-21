@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-21T22:35:52.264Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="0h-dPRy2L4XnpAuWLY8U" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-21T22:44:46.429Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="b-DhZh0VBPqy6EmP8OEV" version="24.7.1" type="github">
   <diagram name="Page-1" id="4AIq1VxAcO9CbjieoWOs">
-    <mxGraphModel dx="1659" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1152" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,6 +35,12 @@
         </mxCell>
         <mxCell id="FlvEMraGfvL1PxSDmqDb-11" value="Values.yaml&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;additionalScrapeConfigs&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;point to custom metrics such as custom APIs&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;additionalPrometheusRulesMap&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;add alerts and record rules&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;alertManagerConfiguration&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;add alert manager rules&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;alertManagerConfigSelector&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;required when setting the matchLabels in the CRD for Alert Manager Config&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i&gt;It is recommended to use the CRDs instead to manage the&lt;/i&gt; config data&lt;/div&gt;&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/travelling-icon-set/800/helm-128.png;align=center;" parent="1" vertex="1">
           <mxGeometry x="779" y="239" width="108" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="LaLoNEMcme44eMh3VW7Y-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.724;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="68" y="230" as="sourcePoint" />
+            <mxPoint x="67.25" y="267.64" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
