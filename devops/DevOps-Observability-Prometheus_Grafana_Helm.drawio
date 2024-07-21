@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" modified="2024-07-21T23:24:15.196Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="M6dIbEKi99iiTu_Ax2uV" version="24.7.1" type="github">
+  <diagram name="Page-1" id="4AIq1VxAcO9CbjieoWOs">
+    <mxGraphModel dx="1659" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FlvEMraGfvL1PxSDmqDb-4" value="Custom Resource Definitions&lt;div&gt;&lt;ul&gt;&lt;li&gt;Managed by Prometheus Operator&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Creates initial custom resources for dynamic service discovery and config data&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;prometheus&lt;/li&gt;&lt;li style=&quot;&quot;&gt;alertmanager: create/manage alert manager rules&lt;/li&gt;&lt;li style=&quot;&quot;&gt;prometheusrules: create/manage alert rules&lt;/li&gt;&lt;li style=&quot;&quot;&gt;alertmanagerconfig&lt;/li&gt;&lt;li style=&quot;&quot;&gt;servicemonitor: create/manage custom targets for scraping, e.g., path/metrics&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=crd;align=left;" parent="1" vertex="1">
+          <mxGeometry x="584" y="264" width="62.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FlvEMraGfvL1PxSDmqDb-5" value="StatefulSets&lt;div&gt;&lt;ul&gt;&lt;li&gt;Prometheus Alert Manager&lt;/li&gt;&lt;li&gt;Prometheus UI&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=sts;align=left;" parent="1" vertex="1">
+          <mxGeometry x="585.0400000000001" y="644" width="60.42" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="FlvEMraGfvL1PxSDmqDb-6" value="daemonSets&lt;div&gt;&lt;ul&gt;&lt;li&gt;Monitor node level metrics&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=ds;align=left;" parent="1" vertex="1">
+          <mxGeometry x="584" y="489" width="62.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FlvEMraGfvL1PxSDmqDb-7" value="&lt;div&gt;Deployments&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Grafana UI&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Prometheus State Metrics: monitor cluster level metrics such as pods and deployments&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Prometheus Operator (manages CRD resources)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=deploy;align=left;" parent="1" vertex="1">
+          <mxGeometry x="584" y="94" width="62.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FlvEMraGfvL1PxSDmqDb-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="810" as="sourcePoint" />
+            <mxPoint x="560" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlvEMraGfvL1PxSDmqDb-9" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Kubernetes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="566" y="40" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FlvEMraGfvL1PxSDmqDb-10" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Helm&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3" y="40" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FlvEMraGfvL1PxSDmqDb-11" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Values.yaml&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;additionalScrapeConfigs&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;point to custom metrics such as custom APIs&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;additionalPrometheusRulesMap&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;add alerts and record rules&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;alertManagerConfiguration&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;add alert manager rules&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;alertManagerConfigSelector&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;required when setting the matchLabels in the CRD for Alert Manager Config&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i&gt;It is recommended to use the CRDs instead to manage the&lt;/i&gt; config data&lt;/div&gt;&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/travelling-icon-set/800/helm-128.png;align=center;imageBackground=none;imageBorder=none;" parent="1" vertex="1">
+          <mxGeometry x="207" y="300" width="108" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="LaLoNEMcme44eMh3VW7Y-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.724;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="230" as="sourcePoint" />
+            <mxPoint x="629.25" y="267.64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaLoNEMcme44eMh3VW7Y-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FlvEMraGfvL1PxSDmqDb-11" target="FlvEMraGfvL1PxSDmqDb-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="79" y="143" as="targetPoint" />
+            <mxPoint x="330" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaLoNEMcme44eMh3VW7Y-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FlvEMraGfvL1PxSDmqDb-11" target="FlvEMraGfvL1PxSDmqDb-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="533" as="targetPoint" />
+            <mxPoint x="799" y="313" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaLoNEMcme44eMh3VW7Y-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FlvEMraGfvL1PxSDmqDb-11" target="FlvEMraGfvL1PxSDmqDb-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="519" as="targetPoint" />
+            <mxPoint x="789" y="303" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaLoNEMcme44eMh3VW7Y-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FlvEMraGfvL1PxSDmqDb-11" target="FlvEMraGfvL1PxSDmqDb-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
