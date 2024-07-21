@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-21T22:27:45.917Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="UxgoKhPUk8i48bZjIGA0" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-21T22:31:05.728Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="HbkxecyD_nWuXZTDuqoe" version="24.7.1" type="github">
   <diagram name="Page-1" id="4AIq1VxAcO9CbjieoWOs">
     <mxGraphModel dx="1659" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -28,8 +28,13 @@
         <mxCell id="FlvEMraGfvL1PxSDmqDb-10" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Helm&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="567" y="20" width="530" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="LaLoNEMcme44eMh3VW7Y-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="FlvEMraGfvL1PxSDmqDb-11" target="FlvEMraGfvL1PxSDmqDb-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FlvEMraGfvL1PxSDmqDb-11" value="Values.yaml&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;additionalScrapeConfigs&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;point to custom metrics such as custom APIs&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;additionalPrometheusRulesMap&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;add alerts and record rules&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;alertManagerConfiguration&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;add alert manager rules&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;alertManagerConfigSelector&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;required when setting the matchLabels in the CRD&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div style=&quot;text-align: left;&quot;&gt;It is recommended to use the CRDs instead to manage the config data&lt;/div&gt;&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/travelling-icon-set/800/helm-128.png;align=center;" parent="1" vertex="1">
-          <mxGeometry x="780" y="239" width="108" height="108" as="geometry" />
+          <mxGeometry x="779" y="239" width="108" height="108" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
